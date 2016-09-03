@@ -10,6 +10,7 @@ function lineEncoding(str) {
             if (length > 1) {
                 result += length;
             }
+
             result += buffer;
             length = 0;
         }
@@ -21,6 +22,7 @@ function lineEncoding(str) {
     if (length > 1) {
         result += length;
     }
+    
     result += buffer;
     
     return result;

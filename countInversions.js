@@ -1,9 +1,11 @@
 'use strict';
 
 function countInversions(arr) {
-    for (let i = 0, c = 0; i < inputArray.length - 1; i++) {
-        for (let j = i + 1; j < inputArray.length; j++) {
-            c += inputArray[i] > inputArray[j];
+    let c = 0;
+
+    for (let i = 0; i < arr.length - 1; i++) {
+        for (let j = i + 1; j < arr.length; j++) {
+            c += arr[i] > arr[j];
         }
     }
     

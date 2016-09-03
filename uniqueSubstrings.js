@@ -10,6 +10,7 @@ function uniqueSubstrings(input) {
             if (!hashTable[str]) {
                 hashTable[str] = 0;
             }
+            
             hashTable[str]++;
         }
     }
