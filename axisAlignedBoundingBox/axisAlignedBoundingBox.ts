@@ -1,10 +1,10 @@
 'use strict';
 
 const axisAlignedBoundingBox = (x : number[], y : number[]) : number => {
-	const minX = Math.min(...x);
-	const maxX = Math.max(...x);
-	const minY = Math.min(...y);
-	const maxY = Math.max(...y);
+    const minX : number = Math.min(...x);
+    const maxX : number = Math.max(...x);
+    const minY : number = Math.min(...y);
+    const maxY : number = Math.max(...y);
 
   	return (maxX - minX) * (maxY - minY);
 }
