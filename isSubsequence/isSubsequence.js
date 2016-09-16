@@ -1,7 +1,7 @@
 'use strict';
 
 function isSubsequence(haystack, needle) {
-    if (haystack.indexOf(s) > -1) {
+    if (haystack.indexOf(needle) > -1) {
         return true;
     }
     
